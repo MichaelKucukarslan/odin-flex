@@ -55,7 +55,8 @@ ul {
     gap: 16px;
 }
 
-.left, .right{
+.left, .right, .center{
+    color: rebeccapurple;
     display: flex;
     align-items: center;
     gap: 16px;
