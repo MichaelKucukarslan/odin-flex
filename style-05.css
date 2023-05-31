@@ -17,11 +17,28 @@ body {
 
 .modal {
   background: white;
+  display: flex;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
 }
 
+.right {
+    margin: 0px 10px;
+}
+
+.header {
+    font-size: large;
+    font-weight: bold;
+}
+.right-top{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    padding: 5px 0px 20px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
